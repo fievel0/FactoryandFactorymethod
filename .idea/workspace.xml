@@ -5,30 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee4267be-ef72-433d-9fa6-90c38687c55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factory/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factory/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factory/EnemyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factory/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factory/TestFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factory/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/ArcherFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/EnemyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/Magician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/MagicianFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/TestFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/WarriorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/TestAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/armor/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/armor/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/armor/HeavyArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/armor/Robe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/enemy/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/enemy/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/enemy/Magician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/enemy/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/factory/ArcherFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/factory/EnemyAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/factory/MagicianFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/factory/WarriorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/weapon/Arrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/weapon/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/weapon/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/abstracfactory/weapon/WizardStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/patrones/factory/TestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factory/TestFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/MagicianFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/patrones/factorymethod/MagicianFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +53,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.TestAbstractFactory.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestFactory.executor&quot;: &quot;Run&quot;,
     &quot;Application.TestFactoryMethod.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/FABIAN/Desktop/java/Patrones/Patrones/src/main/java/org/patrones/factorymethod&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/FABIAN/Desktop/java/proy_spring/Patrones/Patrones&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -71,7 +68,20 @@
       <recent name="C:\Users\FABIAN\Desktop\java\Patrones\Patrones\src\main\java\org\patrones\factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestFactoryMethod">
+  <component name="RunManager" selected="Application.TestAbstractFactory">
+    <configuration name="TestAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.patrones.abstracfactory.TestAbstractFactory" />
+      <module name="Patrones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.patrones.abstracfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.patrones.factory.TestFactory" />
       <module name="Patrones" />
@@ -100,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAbstractFactory" />
         <item itemvalue="Application.TestFactoryMethod" />
         <item itemvalue="Application.TestFactory" />
       </list>
