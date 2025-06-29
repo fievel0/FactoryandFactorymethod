@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee4267be-ef72-433d-9fa6-90c38687c55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/builder/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/builder/EnemyBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/patrones/builder/TestBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +42,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "factory",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/FABIAN/Desktop/java/proy_spring/Patrones/Patrones"
+    "last_opened_file_path": "C:/Users/FABIAN/Desktop/java/web local/SysGes_BE"
   }
 }]]></component>
   <component name="RecentsManager">
